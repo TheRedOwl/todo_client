@@ -1,6 +1,7 @@
 import axios from "axios"
 
-const url="http://localhost:8000"
+//const url="http://localhost:8000"
+const url="https://todo-server-p28q.onrender.com"
 
 export const getTodos=async ()=>{
     const response=await axios.get(url+"/todos")
